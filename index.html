@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Magic Eight Ball</title>
+</head>
+
+<body>
+    <header>
+        <h1>Magic Eight Ball</h1>
+    </header>
+    <div id="mBall">
+        <p id="name-label">What is your name?</p>
+        <form id="name-form">
+            <input type="text" id="name-input" placeholder="Your name" />
+        </form>
+        <p id="question-label"></p>
+        <form id="question-form">
+            <input type="text" id="question-input" placeholder="Yes or no questions only" />
+        </form>
+        <p id="user-question"></p>
+        <div id="answer-container">
+            <p id="eightball-answer"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

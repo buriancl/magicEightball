@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fondamento', cursive;
+    background-color: rgb(37, 35, 42);
+    color: rgb(251, 252, 240);
+}
+
+header {
+    text-align: center;
+    border-bottom: solid 2px rebeccapurple;
+    margin-bottom: 10px;
+}
+
+#mBall {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px auto;
+    font-size: 28px;
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    border: solid 2px rebeccapurple;
+    font-size: 18px;
+    text-align: center;
+}
+
+#question-form,
+#answer-container {
+    display: none;
+}
+
+h1,
+#question-label,
+#user-question {
+    padding: 15px 0;
+}
+
+#eightball-answer {
+    background-color: rebeccapurple;
+    padding: 25px;
+}
